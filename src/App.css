@@ -1,0 +1,26 @@
+.nav-item.active{
+  border-bottom: 1.5px solid #fff !important;
+}
+.nav-item.active .nav-link{
+  color: #fff !important;
+}
+
+/* LOGIN PAGE */
+.login-page{
+  height: 90vh;
+}
+.login-page .card{
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+}
+.login-page .card .input-container{
+  position: relative;
+}
+.login-page .card .input-container .icons-container{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  height: 100%;
+  cursor: pointer;
+}
